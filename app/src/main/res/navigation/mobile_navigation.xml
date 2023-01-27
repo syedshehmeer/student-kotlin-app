@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.dsu.myapplication.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/navigation_addrecord"
+        android:name="com.dsu.myapplication.ui.addrecord.AddrecordFragment"
+        android:label="@string/title_addRecord"
+        tools:layout="@layout/fragment_addrecord" />
+    <fragment
+        android:id="@+id/navigation_favourites"
+        android:name="com.dsu.myapplication.ui.favourites.FavouriteFragment"
+        android:label="@string/title_favourites"
+        tools:layout="@layout/fragment_favourites" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.dsu.myapplication.ui.setting.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.dsu.myapplication.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+
+</navigation>

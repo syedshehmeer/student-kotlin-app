@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">dsu app</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_addRecord">AddRecord</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="title_search">Search</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="add_the_user_information" />
+</resources>
